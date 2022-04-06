@@ -73,6 +73,11 @@ python -m app.daily_briefing
 APP_ENV="production" COUNTRY_CODE="US" ZIP_CODE="20057" python -m app.daily_briefing
 ```
 
+Run Flask Web App:
+```sh
+FLASK_APP=web_app flask run
+```
+
 
 ## Testing
 
@@ -91,3 +96,4 @@ CI=true pytest
 Follow the deployment instructions to deploy the app to a remote server and schedule the server to send you the weather forecast email every day.
 
 ## [License](/LICENSE.md)
+
